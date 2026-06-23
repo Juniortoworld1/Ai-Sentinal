@@ -9,6 +9,6 @@
 class ApiConfig {
   static const String baseUrl = String.fromEnvironment(
     'SOC_API_BASE_URL',
-    defaultValue: 'http://localhost:8000',
+    defaultValue: 'https://ai-sentinal-backend.onrender.com',
   );
 }
